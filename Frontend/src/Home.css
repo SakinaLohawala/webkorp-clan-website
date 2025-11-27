@@ -1,0 +1,270 @@
+.sectionOne{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+    height: 670px;
+    font-size: 1.7rem;
+    padding-left: 3.5rem;
+    background-image: url("./assets/frontbackground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.sectionOne button{
+    width: 22rem;
+    height: 4rem;
+    font-size: 1.5rem;
+    border-radius: 25px;
+    background-color:  rgb(82, 82, 252);
+    font-weight: 600;
+    color: white;
+    border: none;
+}
+
+.companies{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-bottom: 20px;
+}
+
+.companies img{
+    width: 15%;
+    height: 25%;
+    margin: 10px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.sectionOne p{
+    width: 45%;
+    font-size: 1.5rem;
+}
+
+.sectionOne h4{
+    margin-top: -10px;
+}
+.sectionOne h2{
+    margin-top: -10px;
+}
+
+.boxTwo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px;
+    box-shadow: 6px 6px 35px gray;
+    padding: 15px;
+    font-size: 2rem;
+    border-radius: 25px;
+    font-weight: 1000;
+}
+
+.images{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 70%;
+    height: 50%;
+}
+.image-track{
+    display: inline-flex;
+    animation: move 25s linear infinite;
+}
+
+.boxTwo img{
+    height: 50%;
+    width: 120px;
+    border-radius: 15px;
+    margin: 25px;
+    border: 1px solid black;
+    padding: 15px;
+}
+
+@keyframes move{
+    0%{ transform: translateX(0); }
+    100%{ transform: translateX(-50%); }
+}
+
+.box3img{
+   display: grid;
+   grid-template-rows: repeat(3, 1fr);
+   grid-template-columns: repeat(4,  1fr);
+   background-color: white;
+   height: 45rem;
+   width: 50%;
+   gap: 10px;
+}
+.box3img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.boxThree{
+    background-color: #06669e;
+}
+.founder1{
+  grid-row: span 2;
+  grid-column: span 2;
+   overflow: hidden;
+   align-items: center;
+}
+
+.founder2{
+    grid-row: span 1;
+  grid-column: span 2;
+   overflow: hidden;
+   align-items: center; 
+}
+
+.founder3{
+     grid-row: span 1;
+  grid-column: span 2;
+   overflow: hidden;
+   align-items: center; 
+}
+
+.founder4{
+    grid-row: span 1;
+  grid-column: span 2;
+   overflow: hidden;
+   align-items: center; 
+}
+.allinone{
+     grid-row: span 1;
+  grid-column: span 2;
+   overflow: hidden;
+   align-items: center; 
+}
+
+.boxFour{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 95%;
+    background-color: #06669e;
+    color: white;
+    margin: 3% 0 3% 2.5%;
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding: 5px;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: 4px 4px 15px #06669e;
+    height: 650px;
+}
+.boxFour h3{
+    font-size: 2rem;
+    font-weight: 900;
+    width: 70%;
+    padding-left: 15%;
+}
+
+.fourBottom{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    gap: 20px;
+}
+
+.techno{
+    height: 400px;
+    scroll-behavior: smooth;
+    width: 40%;
+    overflow-y: auto;
+    background-color: white;
+    color: black;
+    text-align: start;
+    padding: 5px 20px 2px 30px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px #161753;
+}
+.techno button{
+    border: none;
+    background-color: transparent;
+    font-size: large;
+    padding: 15px 0 0 10px;
+}
+.techno::-webkit-scrollbar{
+    border-radius: 20px;
+}
+
+.technology{
+    height: 50px;
+    background-color: rgb(194, 192, 192);
+    border-radius: 7px;
+    margin: 15px 2px 15px 2px;
+    box-shadow: 2px 2px 10px #161753;
+    
+}
+.list{
+    text-align: start;
+    width: 50%;
+    font-size: 1.25rem;
+    transition: .8s ease-out;
+    transform: translateX(0);
+    opacity: 1;
+}
+.list.slide{
+    opacity: 0;
+    transform: translateX(-50px);
+}
+
+.technology:active{
+    background-color: #06669e;
+     color: white;
+}
+.techno button:active{
+    color: white;
+}
+.list h4{
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.outerFive{
+    background-color: #06669e;
+    width: 100%;
+    height: 270px;
+    padding: 10px 0 20px 0;
+}
+.boxFive{
+    background-color: white;
+    width: 95%;
+    height: 210px;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 5px 0 20px 20px;
+    font-size: 1.25rem;
+}
+
+.boxFive h2{
+    font-size: 2.25rem;
+    font-weight: 900;
+}
+
+.boxFive p {
+     color: gray;
+     width: 60%;
+     margin-top: -25px;
+}
+.boxFive button{
+    width: 15%;
+    background-color: #06669e;
+    font-size: 1.25rem;
+    font-weight: 700;
+    height: 20%;
+    border: none;
+    border-radius: 20px;
+    color: white;
+}
