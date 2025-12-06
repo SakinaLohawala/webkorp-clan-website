@@ -99,3 +99,55 @@
   height: 150px;
   background-color: gray;
 }
+
+.blockimg{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blockimg img{
+  height: 70px;
+  width: 70px;
+  margin: 20px;
+}
+
+.nextGen{
+  width: 90%;
+  margin: 60px 0 50px 5%;
+  border-radius: 25px;
+  box-shadow: 5px 5px 15px gray;
+  height: 550px;
+}
+
+.Genimg{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  overflow: hidden;
+  width: 90%;
+  height: 50%;
+  animation: slide 50s linear infinite;
+}
+
+@keyframes slide{
+  0% {transform: translateX(0);}
+  100%{transform: translateX(-100%);}
+}
+
+#Genimg{
+  width: 50%;
+  height: 40%;
+  object-fit: cover;
+}
+
+#Genimg p{
+  display: none;
+}
+.agriculture{
+  background-image: url("./assets/agriculture.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 20%;
+  height: 200px;
+}

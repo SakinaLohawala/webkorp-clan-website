@@ -7,11 +7,7 @@ import security from "./assets/security.jpg";
 import robotic from "./assets/robotic.jpg";
 import blockchain from "./assets/blockchain.jpg";
 import "./half.css"
-import tez from "./assets/tezjs.jpg";
-import css from "./assets/css.jpg";
-import html from "./assets/html.jpg";
-import boot from "./assets/bootstrap.jpg";
-import ty from "./assets/typescript.jpg";
+import { Tech, NextGen } from "./helper1";
 
 export default function Half (){
     return(
@@ -43,7 +39,8 @@ export default function Half (){
                 </div>
             </div>
 
-
+            <Tech/>
+            <NextGen/>
         </div>
     )
 }
