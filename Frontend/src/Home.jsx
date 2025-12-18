@@ -11,12 +11,8 @@ import juniper from "./assets/juniper.jpg"
 import salesforce from "./assets/salesforce.jpg";
 import sophos from "./assets/sophos.jpg";
 import sysdig from "./assets/sysdig.jpg";
-import founder1 from "./assets/founder1.jpg";
+import founders from "./assets/founders.jpg";
 import trellix from "./assets/trellix.jpg";
-import founder2 from "./assets/founder2.jpg";
-import founder3 from "./assets/founder3.jpg";
-import founder4 from "./assets/founder4.jpg";
-import allinone from "./assets/allinone.jpg";
 import { useState } from "react";
 import Half from "./Half.jsx"
 
@@ -128,7 +124,7 @@ function Home(){
            <img src={microsoft} alt="microsoft logo" />
            <img src={hubspot} alt="hubspot logo" />
           </div>
-           <button><i class="fa-solid fa-phone"></i>  Schedule a Call Now</button>
+           <button><i className="fa-solid fa-phone"></i>  Schedule a Call Now</button>
         </div>
         <div className="boxTwo">
             <h2>Our OEM Partners</h2>
@@ -151,42 +147,28 @@ function Home(){
             </div>
              
         </div>
-
+           <div className="outerThree">
+            
         <div className="boxThree">
-            <div className="box3Image">
-                <div className="founder1">
-                    <img src={founder1} alt="founder1 img" className='founder'/>
-                </div>
-                <div className="founder2">
-                    <img src={founder2} alt="founder2 img" className='founder'/>
-                </div>
-                <div className="founder3">
-                    <img src={founder3} alt="founder3 img" className='founder'/>
-                </div>
-                <div className="founder4">
-                    <img src={founder4} alt="founder4 img" className='founder'/>
-                </div>
-                <div className="allinone">
-                    <img src={allinone} alt="all img" className='founder'/>
-                </div>
+                <img src={founders} alt="founders images" />
 
-            </div>
             <div className="description">
                  <div className="head">
                     <h2 id='name'>Webkorps</h2>
                     <h2>: A Trusted IT Solutions Provider Empowering Businesses Worldwide</h2>
                  </div>
                  <p>At Webkrops, we create innovative IT solutions for businesses to help them thrive in the digital age. As a trusted IT solutions provider, we specialize in customized technology for businesses of all size, from startups to enterprises. Our aim to empower businesses with technology that enhances efficiency, drives growth, and makes a lasting impact.</p>
-                 <p><i class="fa-solid fa-circle-chevron-right"></i> We are an ISO 9001:2015 & ISO 27001 Certified IT Solutions Provider ensuring top-quality standards and security.</p>
-                 <p><i class="fa-solid fa-circle-chevron-right"></i> 8+ years of industry expertise delivering cuttin-edge business IT solutions for diverse industries.</p>
-                 <p><i class="fa-solid fa-circle-chevron-right"></i> Strong team of 250+ skilled developers driving digital transformation.</p>
-                 <p><i class="fa-solid fa-circle-chevron-right"></i> Successfully delivered 500+ progect across diverse industries.</p>
-                 <p><i class="fa-solid fa-circle-chevron-right"></i> We serve clients in 30+ countries, empowering business globally.</p>
-                 <p><i class="fa-solid fa-circle-chevron-right"></i> Recognized and ranked on leading platforms like Clutch, GoodFirms, Techbehemoths, TopDevelopers, and many more.</p>
-                 <p><i class="fa-solid fa-circle-chevron-right"></i> Trusted by startups, SMBs, and enterpise businesses for scalable IT solutions.</p>
-                 <p><i class="fa-solid fa-circle-chevron-right"></i> Commitment to innovation, reliability, and  client success.</p>
+                 <p><i className="fa-solid fa-circle-chevron-right"></i> We are an ISO 9001:2015 & ISO 27001 Certified IT Solutions Provider ensuring top-quality standards and security.</p>
+                 <p><i className="fa-solid fa-circle-chevron-right"></i> 8+ years of industry expertise delivering cuttin-edge business IT solutions for diverse industries.</p>
+                 <p><i className="fa-solid fa-circle-chevron-right"></i> Strong team of 250+ skilled developers driving digital transformation.</p>
+                 <p><i className="fa-solid fa-circle-chevron-right"></i> Successfully delivered 500+ progect across diverse industries.</p>
+                 <p><i className="fa-solid fa-circle-chevron-right"></i> We serve clients in 30+ countries, empowering business globally.</p>
+                 <p><i className="fa-solid fa-circle-chevron-right"></i> Recognized and ranked on leading platforms like Clutch, GoodFirms, Techbehemoths, TopDevelopers, and many more.</p>
+                 <p><i className="fa-solid fa-circle-chevron-right"></i> Trusted by startups, SMBs, and enterpise businesses for scalable IT solutions.</p>
+                 <p><i className="fa-solid fa-circle-chevron-right"></i> Commitment to innovation, reliability, and  client success.</p>
             </div>
-        </div>
+         </div>
+      </div>
 
         <div className="boxFour">
             <div className="desc4">
@@ -196,34 +178,34 @@ function Home(){
            <div className="fourBottom">
              <div className="techno">
                  <div className="technology">
-                    <button onClick={mobile}><i class="fa-solid fa-mobile"></i>Mobile App Development</button>
+                    <button onClick={mobile}><i className="fa-solid fa-mobile"></i>Mobile App Development</button>
                 </div>
                 <div className="technology">
-                    <button onClick={web}><i class="fa-solid fa-globe"></i>Web Development</button>
+                    <button onClick={web}><i className="fa-solid fa-globe"></i>Web Development</button>
                 </div>
                  <div className="technology">
-                    <button onClick={CustomSoftware}><i class="fa-solid fa-laptop"></i>Custom Software Development</button>
+                    <button onClick={CustomSoftware}><i className="fa-solid fa-laptop"></i>Custom Software Development</button>
                  </div>
                  <div className="technology">
-                    <button onClick={Enterprise}><i class="fa-solid fa-building"></i>Enterprise Software Development</button>
+                    <button onClick={Enterprise}><i className="fa-solid fa-building"></i>Enterprise Software Development</button>
                  </div>
                  <div className="technology">
-                    <button onClick={blockchain}><i class="fa-solid fa-link"></i>Blockchain Solutions</button>
+                    <button onClick={blockchain}><i className="fa-solid fa-link"></i>Blockchain Solutions</button>
                  </div>
                  <div className="technology">
-                    <button onClick={Ai}><i class="fa-solid fa-brain"></i>AI-ML Solution</button>
+                    <button onClick={Ai}><i className="fa-solid fa-brain"></i>AI-ML Solution</button>
                  </div>
                  <div className="technology">
-                    <button onClick={iot}><i class="fa-solid fa-microchip"></i>IoT Development</button>
+                    <button onClick={iot}><i className="fa-solid fa-microchip"></i>IoT Development</button>
                  </div>
                  <div className="technology">
-                    <button onClick={it}><i class="fa-solid fa-people-group"></i>IT Staff Augmentation</button>
+                    <button onClick={it}><i className="fa-solid fa-people-group"></i>IT Staff Augmentation</button>
                  </div>
                  <div className="technology">
-                    <button onClick={ecommerce}><i class="fa-solid fa-cart-shopping"></i>E-Commerce Development</button>
+                    <button onClick={ecommerce}><i className="fa-solid fa-cart-shopping"></i>E-Commerce Development</button>
                  </div>
                  <div className="technology">
-                    <button onClick={managed}><i class="fa-solid fa-screwdriver-wrench"></i>Managed IT Services</button>
+                    <button onClick={managed}><i className="fa-solid fa-screwdriver-wrench"></i>Managed IT Services</button>
                </div>
             </div>
             <div className="list">
