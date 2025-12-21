@@ -20,6 +20,17 @@ import rated from "./assets/rated-firm.jpg";
 import service from "./assets/service-provider.jpg";
 import techImply from "./assets/tech-imply.jpg";
 import wadline from "./assets/wadline.jpg";
+import abp from "./assets/abp-logo.jpg";
+import acima from "./assets/acima-logo.jpg";
+import cardinalhire from "./assets/cardinalhire.jpg";
+import cigna from "./assets/cigna-logo.jpg";
+import cryoport from "./assets/cryoport-logo.jpg";
+import digikagaz from "./assets/digikagaz-logo.jpg";
+import property from "./assets/property-finder-logo.jpg";
+import puravankara from "./assets/puravankara-logo.jpg";
+import sonic from "./assets/sonic-healthcare-logo.jpg";
+import wendy from "./assets/wendy-logo.jpg";
+import bhai from "./assets/bhai-bandhu-logo.jpg";
 
 
 
@@ -77,73 +88,73 @@ function NextGen(){
             <div className="Genimg">
                 <div className="Genimg_tracker">
                     <div className="assetManage" id="Genimg" onMouseEnter={()=>handleHover("asset")} onMouseLeave={()=>handleHover(null)} >
-                    <div className="textes"style={{ marginTop: activeCard === "asset"? "60px":"220px", transition: "margin-top 0.4s ease",}}>
+                    <div className="textes"style={{ marginTop: activeCard === "asset"? "60px":"220px", transition: "margin-top 0.6s ease",}}>
                         <h2>Asset Managment</h2>
                         { activeCard === "asset" && <p>Optimize portfolio tracking and automate financial reporting with our IT solutions & services. Enhance security, ensure seamless transactions, and enable real-time data insights for smarter asset management.</p>}
                     </div>
                 </div>
                 <div className="logistics" id="Genimg" onMouseEnter={()=>handleHover("logistics")} onMouseLeave={()=>handleHover(null)}>
-                    <div className="textes" style={{ marginTop: activeCard === "logistics"? "90px":"220px", transition: "margin-top 0.4s ease",}}>
+                    <div className="textes" style={{ marginTop: activeCard === "logistics"? "90px":"220px", transition: "margin-top 0.6s ease",}}>
                         <h2>Logistics</h2>
                    { activeCard === "logistics" && <p>Improve supply chain operations with our IT solutions, featuring AI-driven route optimization, real-time tracking, and automated logistics management to boost efficiency and reduce operational costs.</p>}
                        </div>
                 </div>
                 <div className="healthcare" id="Genimg" onMouseEnter={()=>handleHover("healthcare")} onMouseLeave={()=>handleHover(null)}>
-                    <div className="textes" style={{ marginTop: activeCard === "healthcare"? "90px":"220px", transition: "margin-top 0.4s ease",}}>
+                    <div className="textes" style={{ marginTop: activeCard === "healthcare"? "90px":"220px", transition: "margin-top 0.6s ease",}}>
                         <h2>Healthcare</h2>
                         {activeCard === "healthcare" &&<p>Revolutionize patient care with our IT solutions - secure telemedicine platforms, AI-powered diagnostics, and seamless EHR integration to enhance healthcare efficiency and data privacy.</p>}
                     </div>
                 </div>
                 <div className="fintech" id="Genimg" onMouseEnter={()=>handleHover("fintech")} onMouseLeave={()=>handleHover(null)}>
-                    <div className="textes" style={{ marginTop: activeCard === "fintech"? "90px":"220px", transition: "margin-top 0.4s ease",}}>
+                    <div className="textes" style={{ marginTop: activeCard === "fintech"? "90px":"220px", transition: "margin-top 0.6s ease",}}>
                         <h2>Fintech</h2>
                     {activeCard === "fintech" &&<p>Secure transactions, prevent fraud, and streamline financial operations with our fintech IT solutions, integrating blockchain, AI, and automation for greater trust and efficiency.</p>}
                     </div>
                 </div>
                 <div className="realEstate" id="Genimg" onMouseEnter={()=>handleHover("realEstate")} onMouseLeave={()=>handleHover(null)}>
-                    <div className="textes" style={{ marginTop: activeCard === "realEstate"? "90px":"220px", transition: "margin-top 0.4s ease",}}>
+                    <div className="textes" style={{ marginTop: activeCard === "realEstate"? "90px":"220px", transition: "margin-top 0.6s ease",}}>
                         <h2>Real Estate</h2>
                     {activeCard === "realEstate" &&<p>Transform property transactions with IT solutions like AI-powered property valuation, smart contracts, and virtual property tours, ensuring efficiency, transparency, and security.</p>}
                     </div>
                 </div>
                 <div className="retail" id="Genimg" onMouseEnter={()=>handleHover("retail")} onMouseLeave={()=>handleHover(null)}>
-                    <div className="textes" style={{ marginTop: activeCard === "retail"? "90px":"220px", transition: "margin-top 0.4s ease",}}>
+                    <div className="textes" style={{ marginTop: activeCard === "retail"? "90px":"220px", transition: "margin-top 0.6s ease",}}>
                         <h2>Retail</h2>
                    {activeCard === "retail" && <p>Enhance customer engagement and sales with IT solutions that offer AI-driven personalization, omnichannel integration, and secure digital payment systems for a seamless shopping experience.</p>}
                     </div>
                 </div>
                 <div className="fitness" id="Genimg" onMouseEnter={()=>handleHover("fitness")} onMouseLeave={()=>handleHover(null)}>
-                    <div className="textes" style={{ marginTop: activeCard === "fitness"? "100px":"220px", transition: "margin-top 0.4s ease",}}>
+                    <div className="textes" style={{ marginTop: activeCard === "fitness"? "100px":"220px", transition: "margin-top 0.6s ease",}}>
                         <h2>Fitness & Wellness</h2>
                     {activeCard === "fitness" &&<p>Empower users with IT solutions integrating AI, IoT, and blockchain for secure health data storage, personalized fitness tracking, and smart wearables connectivity.</p>}
                     </div>
                 </div>
                 <div className="travel" id="Genimg" onMouseEnter={()=>handleHover("travel")} onMouseLeave={()=>handleHover(null)}>
-                    <div className="textes" style={{ marginTop: activeCard === "travel"? "90px":"220px", transition: "margin-top 0.4s ease",}}>
+                    <div className="textes" style={{ marginTop: activeCard === "travel"? "90px":"220px", transition: "margin-top 0.6s ease",}}>
                         <h2>Travel</h2>
                     {activeCard === "travel" &&<p>Optimize travel experiences with our IT solutions, featuring AI-driven itinerary planning, blockchain-based identity verification, and automated booking systems for secure, seamless journeys.</p>}
                     </div>
                 </div>
                 <div className="agriculture" id="Genimg" onMouseEnter={()=>handleHover("agriculture")} onMouseLeave={()=>handleHover(null)}>
-                    <div className="textes" style={{ marginTop: activeCard === "agriculture"? "90px":"220px", transition: "margin-top 0.4s ease",}}>
+                    <div className="textes" style={{ marginTop: activeCard === "agriculture"? "90px":"220px", transition: "margin-top 0.6s ease",}}>
                         <h2>Agriculture</h2>
                     {activeCard === "agriculture" &&<p>Increase farming efficiency with IT solutions such as IoT-based precision agriculture, AI-driven crop analytics, and blockchain-powered food traceability for a sustainable supply chain.</p>}
                     </div>
                 </div>
                 <div className="warehouseManage" id="Genimg" onMouseEnter={()=>handleHover("warehouseManage")} onMouseLeave={()=>handleHover(null)}>
-                    <div className="textes" style={{ marginTop: activeCard === "warehouseManage"? "60px":"220px", transition: "margin-top 0.4s ease",}}>
+                    <div className="textes" style={{ marginTop: activeCard === "warehouseManage"? "60px":"220px", transition: "margin-top 0.6s ease",}}>
                         <h2>Warehouse Management</h2>
                     {activeCard === "warehouseManage" &&<p>Streamline inventory operations with our IT solutions, offering real-time tracking, AI-powered demand forecasting, and automated workflows to enhance warehouse efficiency.</p>}
                     </div>
                 </div>
                 <div className="entertain" id="Genimg" onMouseEnter={()=>handleHover("entertain")} onMouseLeave={()=>handleHover(null)}>
-                    <div className="textes" style={{ marginTop: activeCard === "entertain"? "90px":"220px", transition: "margin-top 0.4s ease",}}>
+                    <div className="textes" style={{ marginTop: activeCard === "entertain"? "90px":"220px", transition: "margin-top 0.6s ease",}}>
                         <h2>Entertainment</h2>
                     {activeCard === "entertain" &&<p>Innovate in the entertainment industry with IT solutions like blockchain-secured digital rights management, AI-powered content recommendations, and immersive AR/VR experiences.</p>}
                     </div>
                 </div>
                 <div className="gaming" id="Genimg" onMouseEnter={()=>handleHover("gaming")} onMouseLeave={()=>handleHover(null)}>
-                    <div className="textes" style={{ marginTop: activeCard === "gaming"? "90px":"220px", transition: "margin-top 0.4s ease",}}>
+                    <div className="textes" style={{ marginTop: activeCard === "gaming"? "90px":"220px", transition: "margin-top 0.6s ease",}}>
                         <h2>Gaming</h2>
                     {activeCard === "gaming" &&<p>Revolutionize gaming with IT solutions that power blockchain-based NFTs, AI-driven game mechanics, and secure digital asset transactions for immersive and monetized gameplay.</p>}
                     </div>
@@ -199,4 +210,38 @@ function Testment(){
     )
 }
 
-export { Tech, NextGen, Powering, Testment };
+
+function Brands(){
+    return(
+        <div className="brands">
+            <div className="brandOne">
+                <h2>Leading Brands That Trust Our</h2>
+                <h2> IT Solutions & Services</h2>
+            </div>
+            <div className="brandTwo">
+                <p>We take pride in collaborating with leading global brands and industry experts to deliver innovative IT solutions that promote success. Our commitment to excellence and customer satisfaction has earned us the trust of businesses across various sectors, enabling them to achieve digital transformation and sustainable growth.</p>
+            </div>
+            <div className="brandThree">
+                <div className="brand3-tracker">
+                    <img src={abp} alt="Abp news" />
+                    <img src={acima} alt="acima news" />
+                    <img src={cardinalhire} alt="Cardinalhire" />
+                    <img src={cigna} alt="cigna" />
+                    <img src={cryoport} alt="cryoport" />
+                    <img src={digikagaz} alt="digikagaz" />
+                    <img src={property} alt="property" />
+                    <img src={puravankara} alt="puravankara" />
+                    <img src={sonic} alt="sonic" />
+                    <img src={wendy} alt="wendy" />
+                </div>
+            </div>
+            <div className="brandFour">
+                <div className="brand4-tracker">
+                  <img src={bhai} alt="Bhai-banbdu" />
+                </div>
+            </div>
+        </div>
+    )
+}
+
+export { Tech, NextGen, Powering, Testment, Brands };

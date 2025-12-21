@@ -7,7 +7,7 @@ import security from "./assets/security.jpg";
 import robotic from "./assets/robotic.jpg";
 import blockchain from "./assets/blockchain.jpg";
 import "./half.css"
-import { Tech, NextGen, Powering, Testment } from "./helper1.jsx";
+import { Tech, NextGen, Powering, Testment, Brands } from "./helper1.jsx";
 
 export default function Half (){
     return(
@@ -43,6 +43,7 @@ export default function Half (){
             <NextGen/>
             <Powering/>
             <Testment/>
+            <Brands/>
         </div>
     )
 }
