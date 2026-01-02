@@ -15,6 +15,7 @@ import founders from "./assets/founders.jpg";
 import trellix from "./assets/trellix.jpg";
 import { useState } from "react";
 import Half from "./Half.jsx"
+import { Excellence } from "./helper1.jsx";
 
 
 function Home(){
@@ -149,6 +150,8 @@ function Home(){
             </div>
              
         </div>
+          <Excellence/>
+
            <div className="outerThree">
             
         <div className="boxThree">

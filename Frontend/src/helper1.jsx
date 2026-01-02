@@ -31,6 +31,16 @@ import puravankara from "./assets/puravankara-logo.jpg";
 import sonic from "./assets/sonic-healthcare-logo.jpg";
 import wendy from "./assets/wendy-logo.jpg";
 import bhai from "./assets/bhai-bandhu-logo.jpg";
+import inkind from "./assets/inkind-logo.jpg";
+import owen from "./assets/owenscorning-logo.jpg";
+import paypal from "./assets/paypal-logo.jpg";
+import pebble from "./assets/pebble-logo.jpg";
+import scoutr from "./assets/scoutr-logo.jpg";
+import shree from "./assets/shree-laxmi-steels-logo.jpg";
+import styla from "./assets/styla-logo.jpg";
+import fragrances from "./assets/the-fragrances-shop-logo.jpg";
+import tonik from "./assets/tonik-bank-logo.jpg";
+import verizon from "./assets/verizon-logo.jpg";
 
 
 
@@ -216,7 +226,7 @@ function Brands(){
         <div className="brands">
             <div className="brandOne">
                 <h2>Leading Brands That Trust Our</h2>
-                <h2> IT Solutions & Services</h2>
+                <h2>IT Solutions & Services</h2>
             </div>
             <div className="brandTwo">
                 <p>We take pride in collaborating with leading global brands and industry experts to deliver innovative IT solutions that promote success. Our commitment to excellence and customer satisfaction has earned us the trust of businesses across various sectors, enabling them to achieve digital transformation and sustainable growth.</p>
@@ -238,10 +248,81 @@ function Brands(){
             <div className="brandFour">
                 <div className="brand4-tracker">
                   <img src={bhai} alt="Bhai-banbdu" />
+                  <img src={inkind} alt="inkind" />
+                  <img src={owen} alt="owenscorning" />
+                  <img src={paypal} alt="paypal" />
+                  <img src={pebble} alt="pebble" />
+                  <img src={scoutr} alt="scoutr" />
+                  <img src={styla} alt="styla" />
+                  <img src={fragrances} alt="fragrances" />
+                  <img src={tonik} alt="tonik" />
+                  <img src={verizon} alt="verizon" />
                 </div>
             </div>
         </div>
     )
 }
 
-export { Tech, NextGen, Powering, Testment, Brands };
+function Success(){
+    return(
+        <div className="success">
+           <h2>Partner with Us for Your Success!</h2>
+           <p>Join the growing list of satisfied clients who trust our expertise and innovative IT solutions. Let’s collaborate to turn your vision into reality with technology-driven excellence.</p>
+           <button>Get in Touch Today!</button>
+        </div>
+    )
+}
+
+
+
+function Excellence(){
+
+
+    return(
+        <div className="excellence">
+            <h1>Webkorps:</h1>
+            <h2>Powering Businesses with Proven Excellence</h2>
+             <div className="excellenceLower">
+                 <div className="excellence1">
+                       <p>With over 8 years of industry expertise, Webkorps has been at the forefront of delivering innovative and high-quality software solutions. Backed by a team of 250+ skilled professional developers, we have successfully executed 500+ projects across diverse industries, helping businesses achieve digital transformation and operational excellence.</p>
+                       <p>Our global presence spans 30+ countries, enabling us to cater to a wide range of clients with customized solutions that drive efficiency and growth. With a 98% client satisfaction rate, we remain committed to delivering exceptional results, fostering long-term partnerships, and pushing the boundaries of technology innovation.</p>
+                       <button>Get a Free Consultation Now!</button>
+                </div>
+            <div className="excellence2">
+                    <div className="div1">
+                        <h2>8+</h2>
+                        <p>Years in Business</p>
+                        <hr />
+                        <h2>250+</h2>
+                        <p>Professional Development Team</p>
+                    </div>
+                    <div className="div2">
+                        <div className="y"></div>
+                        <br />
+                        <br />
+                        <div className="y"></div>
+                    </div>
+                    <div className="div3">
+                        <h2>500+</h2>
+                        <p>Projrcts Delivered</p>
+                         <hr />
+                        <h2>30+</h2>
+                        <p>Countries Served</p>
+                    </div>
+             </div>
+            </div>
+        </div>
+    )
+}
+
+function Advance(){
+    return(
+        <div className="advance">
+            <h2>Leverage the Power of Advanced Technologies for Your Business Success!</h2>
+            <p>Harness our expertise in cutting-edge technologies to build secure, scalable, and high-performance IT solutions. Stay ahead of the competition with innovative digital transformation.</p>
+            <button>Let's Innovate Together!</button>
+        </div>
+    )
+}
+
+export { Tech, NextGen, Powering, Testment, Brands, Success, Excellence, Advance};
