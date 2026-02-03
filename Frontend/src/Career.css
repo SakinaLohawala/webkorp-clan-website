@@ -1,0 +1,11 @@
+.front{
+    background-image: url(./assets/careerFront.jpg);
+    background-size: cover;
+    height: 490px;
+    width: 100%;
+    color: white;
+    margin-bottom: 100px;
+}
+.front h1{
+    font-size: 3rem;
+}
